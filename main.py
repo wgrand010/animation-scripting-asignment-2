@@ -6,4 +6,5 @@ class SceneFile(object):
         self.ver = ver
         self.ext = ext
 
-    
+    scene_file = SceneFile("D:\\", "tank", "model", "v001", ".ma")
+    print(scene_file.descriptor)

@@ -1,4 +1,5 @@
 class SceneFile(object):
+
     def __init__(self, folder_path, descriptor, task, ver, ext):
         self.folder_path = folder_path
         self.descriptor = descriptor
@@ -14,5 +15,6 @@ class SceneFile(object):
                               ver=self.ver,
                               ext=self.ext)
 
-    scene_file = SceneFile("D:\\", "tank", "model", "v001", ".ma")
-    print(scene_file.descriptor)
+
+scene_file = SceneFile("C:\\", "tank", "model", 1, ".ma")
+print(scene_file.filename)
